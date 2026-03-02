@@ -1,4 +1,4 @@
-# vgpu-management-scripts
+# vgpu-license-management-scripts
 <hr> 
 
 <br> reason for creation: when using vGPU, Windows seems to be reluctant to install a new license after the last one expires, so i created these fairly basic scripts hoping automating the whole process will stop it from causing problems and/or being a headache every time the time comes to update the licnese token. 
