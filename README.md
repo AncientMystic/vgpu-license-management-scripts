@@ -4,7 +4,7 @@
 <br> reason for creation: when using vGPU, Windows seems to be reluctant to install a new license after the last one expires, so i created these fairly basic scripts hoping automating the whole process will stop it from causing problems and/or being a headache every time the time comes to update the licnese token. 
 <br>
 <br> <b>basic vGPU license management scripts.</b>
-<br> for the Linux-update-vgpu-token.sh & Windows-Update-vGPUToken.ps1 scripts just change the DLS_URL="" line to your ip.
+<br> for the Linux-update-vgpu-token.sh & Windows-Update-vGPUToken.ps1 scripts just change the DLS_URL="" line to your FastAPI-DLS server ip.
 <br> <b>example:</b> DlsUrl = "https://10.0.0.220" and it will work to sync a new token and reset the nvidia service. 
 
 ### to run them:
